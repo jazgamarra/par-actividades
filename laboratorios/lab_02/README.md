@@ -6,7 +6,7 @@ Base URL: http://localhost:8080/par2024
 Esta API permite gestionar facturas, productos, clientes y proveedores, con operaciones completas CRUD (Crear, Leer, Actualizar, Eliminar). Está pensada para integrarse en sistemas de facturación, inventario y control de ventas.
 
 ## Endpoints
-#
+
 ### Facturas
 GET /facturas
 Obtiene la lista de todas las facturas.
@@ -74,4 +74,4 @@ Actualiza los datos de un proveedor existente.
 Elimina un proveedor por su ID.
 
 --- 
-Jazmin Gamarra, 20/03/2003.
+Jazmin Gamarra, 20/03/2025.
