@@ -1,0 +1,7 @@
+<h1>Galería de Imágenes</h1>
+<h3>Mi coleccion de codigos http favoritos representados con gatitos</h3>
+<h3>Para mas michi-ttps, visitar <a href="https://http.cat/"> http.cat</a></h3z>
+<br>
+{% for img in imagenes %}
+  <img src="{{ url_for('static', filename=img) }}" width="500" style="margin: 10px;">
+{% endfor %}

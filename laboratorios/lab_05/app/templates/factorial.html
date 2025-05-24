@@ -1,0 +1,10 @@
+<h1>Factorial</h1>
+<form method="POST">
+  <label>Número:</label>
+  <input type="number" name="numero" min="1">
+  <input type="submit" value="Calcular">
+</form>
+
+{% if mensaje %}<p>{{ mensaje }}</p>{% endif %}
+{% if resultado %}<p>Resultado: {{ resultado }}</p>{% endif %}
+<p>Visitas en la sesión: {{ visitas }}</p>
