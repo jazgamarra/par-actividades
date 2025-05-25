@@ -1,0 +1,14 @@
+<h1>Datos del Usuario</h1>
+
+<form action="{{ url_for('main_bp.guardar_usuario') }}" method="POST">
+    <p><label>CI:</label><input type="text" name="ci"></p>
+    <p><label>Nombre:</label><input type="text" name="nombre"></p>
+    <p><label>Apellido:</label><input type="text" name="apellido"></p>
+    <p><label>Teléfono:</label><input type="text" name="telefono"></p>
+    <button type="submit">Enviar</button>
+</form>
+
+<h1>Ver Usuarios</h1>
+<form action="{{ url_for('main_bp.mostrar_usuarios') }}" method="GET">
+    <button type="submit">Mostrar usuarios</button>
+</form>
